@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Threads - Your Fashion Destination</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Style for the logout button */
+        .logout-button {
+            float: right;
+            margin: 10px;
+            padding: 10px;
+            background-color: #555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .logout-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Stylish Threads</h1>
+        <p>Your Fashion Destination</p>
+        <!-- Logout button added to the header -->
+        <!-- <a  href={% url 'logout' %}><button class="logout-button">Logout</button></a> -->
+        <a  href= '/'><button class="logout-button">Logout</button></a>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#men">Men</a>
+        <a href="#women">Women</a>
+        <a href="#kids">Kids</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Stylish Threads</h2>
+        <p>Explore the latest trends in fashion for men, women, and kids. Find your style with our curated collection of clothing.</p>
+    </section>
+
+    <!-- Add more sections for different categories or featured products -->
+
+    <footer>
+        <p>&copy; 2024 Stylish Threads. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript function for logout (replace with your actual logout logic) -->
+    
+</body>
+</html>
